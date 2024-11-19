@@ -30,34 +30,37 @@
             * Arrivée de let / const / class / fonctions fléchées / promesse
     
 - #### L'utilisation de l'`asynchrone` ✅ 
-    * Callback : C'est une fonction passée en argument, appelée après une tâche 
 
-        ```javascript
-        setTimeout(() => {
-            console.log("Fin");
-        }, 1000);
-        ```
-    * Promesses : C'est une abstraction pour gérer l'asynchrone
+    JavaScript est mono-thread = executer une seule tâche à la fois dans l'ordre du code. Cependant sans asynchronisme il existe des opérations qui peuvent bloquer l'exécution du reste du code donc l'asynchronisme permet de lancer ces tâches "en arrière plan" sans bloquer la suite.
 
-         ```javascript 
-        fetch("https://api.xxx.com")
-            .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(error => console.error(error));
-        ```
-    * Async / Await : Utilisé pour simplifier les promesses avec une syntaxe plus lisible
+        * Callback function : C'est une fonction passée en argument, appelée après une tâche 
 
-        ```javascript
-        async function fetchData() {
-            try {
-                const response = await fetch("https://api.xxx.com");
-                const data = await response.json();
-                console.log(data);
-            } catch (error) {
-                console.error(error);
+            ```javascript
+            setTimeout(() => {
+                console.log("Fin");
+            }, 1000);
+            ```
+        * Promesses : C'est une abstraction pour gérer l'asynchrone
+
+            ```javascript 
+            fetch("https://api.xxx.com")
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.error(error));
+            ```
+        * Async / Await : Utilisé pour simplifier les promesses avec une syntaxe plus lisible
+
+            ```javascript
+            async function fetchData() {
+                try {
+                    const response = await fetch("https://api.xxx.com");
+                    const data = await response.json();
+                    console.log(data);
+                } catch (error) {
+                    console.error(error);
+                }
             }
-        }
-        ```
+            ```
 
 - #### Les spécifités du mot-clef `this` ❌ (A REVOIR pas tout à fait à l'aise sur le sujet)
     * Fait référence à l'object courant dans lequel le code est exécuté, suivant le contexte :
@@ -80,7 +83,7 @@
         ```
 
         * Fonctions fléchées : this hérite du contexte parent
-        
+
         ```javascript 
         const obj = {
             name: "Alice",
