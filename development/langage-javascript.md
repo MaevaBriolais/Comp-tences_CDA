@@ -34,13 +34,15 @@
         ```javascript
         setTimeout(() => {
             console.log("Fin");
-        }, 1000);```
+        }, 1000);
+        ```
     * Promesses : C'est une abstraction pour gérer l'asynchrone
          ```javascript 
         fetch("https://api.xxx.com")
             .then(response => response.json())
             .then(data => console.log(data))
-            .catch(error => console.error(error));```
+            .catch(error => console.error(error));
+        ```
     * Async / Await : Utilisé pour simplifier les promesses avec une syntaxe plus lisible
         ```javascript
         async function fetchData() {
@@ -51,7 +53,8 @@
             } catch (error) {
                 console.error(error);
             }
-        }```
+        }
+        ```
 
 - les spécifités du mot-clef `this` ❌ / ✔️
 
