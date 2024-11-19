@@ -2,11 +2,11 @@
 
 > ❌ A travailler
 
-> ✔️ Auto validation par l'étudiant
+> ✅ Auto validation par l'étudiant
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ✔️
+- les `structures` de base du langage ✅
     * Variables : 
         * let / const / (var)
     * Types de données : 
