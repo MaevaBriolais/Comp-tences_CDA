@@ -6,7 +6,21 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
+- les `structures` de base du langage ✔️
+    * Variables : 
+        * let / const / (var)
+    * Types de données : 
+        * Simples : string / number / boolean / undifined / null
+        * Complexes : object / array / function
+    * Opérateurs :
+        * Arithmétiques : + _ * /
+        * Comparaison : === / == / < / >
+        * Logique : && / || / !
+    * Structures conditionelles :
+        * if / else / else if 
+    * Les boucles : 
+        * for / while / do ... while 
+
 - les normes `ecmascript` ❌ / ✔️
 - l'utilisation de l'`asynchrone` ❌ / ✔️
 - les spécifités du mot-clef `this` ❌ / ✔️
