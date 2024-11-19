@@ -6,7 +6,7 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Les `structures` de base du langage ✅
+- # Les `structures` de base du langage ✅
     * Variables : 
         * let / const / (var)
     * Types de données : 
@@ -21,7 +21,7 @@
     * Les boucles : 
         * for / while / do ... while 
 
-- Les normes `ecmascript` ✅
+- # Les normes `ecmascript` ✅
     * C'est la norme qui définit le langage JS, elle évolue et ajoute des fonctionnalités comme par exemple :
         * ES5 :
             * Compatibilité avec les anciens navigateurs
@@ -29,7 +29,7 @@
         * ES6 :
             * Arrivée de let / const / class / fonctions fléchées / promesse
     
-- L'utilisation de l'`asynchrone` ✅
+- # L'utilisation de l'`asynchrone` ✅
     * Callback : C'est une fonction passée en argument, appelée après une tâche 
         ```javascript
         setTimeout(() => {
@@ -56,7 +56,32 @@
         }
         ```
 
-- les spécifités du mot-clef `this` ❌ / ✔️
+- # Les spécifités du mot-clef `this` ❌ A REVOIR pas tout à fait à l'aise sur le sujet
+    * Fait référence à l'object courant dans lequel le code est exécuté, suivant le contexte :
+        * Global : Dans un navigateur, this pointe vers l'object global window
+        ```javascript
+        console.log(this);
+        ```
+        * Object/méhode : Dans une méthode d'oject this va pointer vers lui même
+        ```javascript
+        const obj = {
+            name: "Alice",
+            sayName() {
+                console.log(this.name);
+            }
+        };
+        obj.sayName(); // "Alice"
+        ```
+        * Fonctions fléchées : this hérite du contexte parent
+        ```javascript 
+        const obj = {
+            name: "Alice",
+            sayName: () => {
+                console.log(this.name);
+            }
+        };
+        obj.sayName(); // undefined
+        ```
 
 
 ## 💻 Je code en Javascript
