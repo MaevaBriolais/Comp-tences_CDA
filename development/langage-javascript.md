@@ -22,7 +22,7 @@
         * for / while / do ... while 
 
 - Les normes `ecmascript` ✅
-    C'est la norme qui définit le langage JS, elle évolue et ajoute des fonctionnalités comme par exemple :
+    * C'est la norme qui définit le langage JS, elle évolue et ajoute des fonctionnalités comme par exemple :
         * ES5 :
             * Compatibilité avec les anciens navigateurs
             * Méthode Array.map() / Array.forEach()
