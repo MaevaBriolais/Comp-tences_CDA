@@ -30,8 +30,7 @@
             * Arrivée de let / const / class / fonctions fléchées / promesse
     
 - #### L'utilisation de l'`asynchrone` ✅ 
-
-    JavaScript est mono-thread = executer une seule tâche à la fois dans l'ordre du code. Cependant sans asynchronisme il existe des opérations qui peuvent bloquer l'exécution du reste du code donc l'asynchronisme permet de lancer ces tâches "en arrière plan" sans bloquer la suite.
+    * JavaScript est mono-thread = executer une seule tâche à la fois dans l'ordre du code. Cependant sans asynchronisme il existe des opérations qui peuvent bloquer l'exécution du reste du code donc l'asynchronisme permet de lancer ces tâches "en arrière plan" sans bloquer la suite.
 
         * Callback function : C'est une fonction passée en argument, appelée après une tâche 
 
