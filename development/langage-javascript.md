@@ -27,10 +27,37 @@
             * Compatibilité avec les anciens navigateurs
             * Méthode Array.map() / Array.forEach()
         * ES6 :
-            * Arrivée de let / const / class / fonctions fléchées / promise
+            * Arrivée de let / const / class / fonctions fléchées / promesse
     
-- l'utilisation de l'`asynchrone` ❌ / ✔️
+- L'utilisation de l'`asynchrone` ✅
+    * Callback : C'est une fonction passée en argument, appelée après une tâche 
+        * ```javascript
+        setTimeout(() => {
+            console.log("Fin");
+        }, 1000);
+        ```
+    * Promesses : C'est une abstraction pour gérer l'asynchrone
+        * ```javascript 
+        fetch("https://api.xxx.com)
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+        ```
+    * Async / Await : Utilisé pour simplifier les promesses avec une syntaxe plus lisible
+        * ```javascript
+        async function fetchData() {
+        try {
+            const response = await fetch("https://api.xxx.com");
+            const data = await response.json();
+            console.log(data);
+        } catch (error) {
+            console.error(error);
+        }
+        }
+        ```
+
 - les spécifités du mot-clef `this` ❌ / ✔️
+
 
 ## 💻 Je code en Javascript
 
