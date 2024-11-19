@@ -31,20 +31,20 @@
     
 - L'utilisation de l'`asynchrone` ✅
     * Callback : C'est une fonction passée en argument, appelée après une tâche 
-        * ```javascript
+        ```javascript
         setTimeout(() => {
             console.log("Fin");
         }, 1000);
         ```
     * Promesses : C'est une abstraction pour gérer l'asynchrone
-        * ```javascript 
+         ```javascript 
         fetch("https://api.xxx.com)
             .then(response => response.json())
             .then(data => console.log(data))
             .catch(error => console.error(error));
         ```
     * Async / Await : Utilisé pour simplifier les promesses avec une syntaxe plus lisible
-        * ```javascript
+        ```javascript
         async function fetchData() {
         try {
             const response = await fetch("https://api.xxx.com");
