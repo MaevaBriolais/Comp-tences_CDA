@@ -31,12 +31,14 @@
     
 - #### L'utilisation de l'`asynchrone` ✅ 
     * Callback : C'est une fonction passée en argument, appelée après une tâche 
+
         ```javascript
         setTimeout(() => {
             console.log("Fin");
         }, 1000);
         ```
     * Promesses : C'est une abstraction pour gérer l'asynchrone
+
          ```javascript 
         fetch("https://api.xxx.com")
             .then(response => response.json())
@@ -44,6 +46,7 @@
             .catch(error => console.error(error));
         ```
     * Async / Await : Utilisé pour simplifier les promesses avec une syntaxe plus lisible
+
         ```javascript
         async function fetchData() {
             try {
@@ -59,10 +62,13 @@
 - #### Les spécifités du mot-clef `this` ❌ (A REVOIR pas tout à fait à l'aise sur le sujet)
     * Fait référence à l'object courant dans lequel le code est exécuté, suivant le contexte :
         * Global : Dans un navigateur, this pointe vers l'object global window
+
         ```javascript
         console.log(this);
         ```
+
         * Object/méhode : Dans une méthode d'oject this va pointer vers lui même
+
         ```javascript
         const obj = {
             name: "Alice",
@@ -72,7 +78,9 @@
         };
         obj.sayName(); // "Alice"
         ```
+
         * Fonctions fléchées : this hérite du contexte parent
+        
         ```javascript 
         const obj = {
             name: "Alice",
