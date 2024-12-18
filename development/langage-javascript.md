@@ -120,10 +120,7 @@ console.log("La somme des nombres est : " + total);
 
 ### Utilisation dans un projet ✅ 
 
-[lien github](https://github.com/MaevaBriolais/Empathy_Hackaton)
-
-Description : Dans le cadre d'un Hackaton nous avons créé en groupe "Empathy".
-Empathy est un serious game porter sur l'accessibilité des personnes en situation d'handicape dans un environnement de travail.
+[lien github](...)
 
 ### J'ai utilisé ce langage en production ❌ / ✔️
 
