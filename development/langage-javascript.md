@@ -96,17 +96,34 @@
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✅ 
 
 ```javascript
-(e) => mc2;
+// Fonction pour calculer la somme des éléments d'un tableau
+function calculerSomme(tableau) {
+  let somme = 0;
+  for (let i = 0; i < tableau.length; i++) {
+// Ajouter chaque élément à la somme
+    somme += tableau[i]; 
+  }
+  return somme;
+}
+
+// Tableau d'exemples
+let nombres = [5, 8, 12, 3];
+
+// Calcul de la somme et affichage
+let total = calculerSomme(nombres);
+console.log("La somme des nombres est : " + total);
+
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✅ 
 
-[lien github](...)
+[lien github](https://github.com/MaevaBriolais/Empathy_Hackaton)
 
-Description :
+Description : Dans le cadre d'un Hackaton nous avons créé en groupe "Empathy".
+Empathy est un serious game porter sur l'accessibilité des personnes en situation d'handicape dans un environnement de travail.
 
 ### J'ai utilisé ce langage en production ❌ / ✔️
 
