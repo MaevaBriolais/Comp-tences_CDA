@@ -42,11 +42,11 @@
                 console.log(`${this.name} makes a sound.`);
             }
         }
-            class Dog extends Animal {
+        class Dog extends Animal {
             speak() {
                 console.log(`${this.name} barks.`);
             }
-            }
+        }
         ```
     * Décorateurs : Ce sont des fonctions spéciales qui peuvent être appliquées à des classes, méthodes, propriétés ou paramètres. Ils sont utilisés pour modifier ou ajouter des comportements à des éléments de code.
         ```typescript
