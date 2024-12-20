@@ -67,19 +67,46 @@
       * Garantir que le produit final répond aux besoins des utilisateurs
       * Prendre des décisions sur les priorités des User Stories
 
-
   * `Stakeholder`: C'est toutes les perosnnes ayant un intérêt dans le produit / projet en cours. Il peut y avoir en interne les managers, équipes commerciales, développeur... En externes on peut avoir les clients, utilisateurs... Les stakeholders fournissent des insights essentiels et assurent que le produit final correspond aux besoins réels du marché ou de l’organisation.
     * Responsabilités : 
       * Feedback réguliers sur les incréments livrés + Partager les besoins / attentes pour le produit
       * Collaborer avec le PO en fournissant les informations pour prioriser les US + participer aux revues de sprint pour valider les incréments
       * Soutenir l'équipe Scrum en fournissant des ressources nécessaires + respecter les décisions de l'équipe en suivant les priorités définies
 
-- Comment rédiger une User Story complète ? ❌ / ✔️
-- Qu'est-ce qu'un Product Backlog ? ❌ / ✔️
-- Qu'est ce qu'un Sprint ? Quel est l'intérêt ? ❌ / ✔️
-- A quoi sert le Burndown Chart ? ❌ / ✔️
-- Quelles sont les 2 unités de complexité ? ❌ / ✔️
-- Qu'est-ce qu'une Definition of done ? A quoi sert elle ? ❌ / ✔️
+- ### Comment rédiger une User Story complète ? ✅
+Pour bien rédiger une US il faut une description concise et claire d'une fonctionnalité ou d'une tâche du point de vue de l'utilisateur final. Il faudra donc inclure plusieurs éléments clés afin de s'assurer qu'elle soit compréhensible et bien définie. Dans la description on y retrouvera le rôle, le besoin et l'objectif. On peut y ajouter des critères d'acceptation par le biai d'une liste de conditions, des critères spécifiques mesurables et vérifiables. L'US doit comporté sont niveau d'importance ou de priorisation
+
+- ### Qu'est-ce qu'un Product Backlog ? ✅
+C'est un outil fondamental dans la méthodologie Agile. Il s'agit d'une liste priorisée et évolutive de tout ce qui est nécessaire pour développer, améliorer ou maintenir un produit. Il va servir de référentiel unique pour les fonctionnalités, corrections, améliorations techniques et autres tâches à réaliser.
+En étant bien maintenu et transparent, il aide l'équipe à livrer un produit qui répond aux besoins des utilisateurs tout en s'adaptant rapidement aux changements.
+Le product backlog peut inclure: 
+  * User Stories : fonctionnalités exprimées du point de vue utilisateur
+  * Bugs : correctifs pour résoudre des anomalies
+  * Améliorations continues : idées pour optimiser le produit
+  * Tâches techniques : mises à jour d'infrastructure, dettes techniques
+
+- ### Qu'est ce qu'un Sprint ? Quel est l'intérêt ? ✅
+Un sprint c'est une période de temps fixe dans laquelle une équipe travaille pour livrer un incrément du produit. Celui-ci doit être terminé, utilisable et potentiellement livrable. Le Sprint est le cœur de la méthodologie Scrum, structurant le travail en cycles courts pour permettre une adaptation continue et une livraison régulière de valeur.
+Le sprint aura des caractéristiques principales : 
+  * Une durée fixe 
+  * Des objectifs clair 
+  * Livraison d'un incrément
+  * Non modifiable (ou exceptionnellement)
+  * Inclure des évènements scrum (sprint planning, daily, sprint review, rétrospective)
+Les `intérêts du sprint` sont multiples :
+  * Une livraison fréquente de valeur
+  * Adaptabilité
+    * Avec des cycles courts ça permet d'ajuster les priorités en fonction des retours des utilisateurs, changements dans le marché ...
+  * Réduction des risques
+    * Avec des problèmes identifiés et corrigés plus tôt dans le processus
+    * Chaque incrément va permettre de valider rapidement si le produit répond aux attentes
+  * Bonne collaboration
+    * Grâche aux évènements scrum --> l'équipe va collaboré efficacement
+  * Prévisibilité
+
+- A quoi sert le Burndown Chart ? ❌ 
+- Quelles sont les 2 unités de complexité ? ❌ 
+- Qu'est-ce qu'une Definition of done ? A quoi sert elle ? ❌ 
 
 ## 💻 J'utilise
 
