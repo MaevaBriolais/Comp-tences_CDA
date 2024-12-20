@@ -22,7 +22,7 @@
       * Retrospective 
     * Fournit un cadre pour gérer le travail avec des petits morceaux qui permettent d'ajuster rapidement le produits en fonction des besoins évolutifs
 
-- ### Expliquer les différents rituels et leur intérêt : ✅
+- ### Expliquer les `différents rituels et leur intérêt` : ✅
   * `Daily Stand Up` : C'est une réunion quotidienne de courte durée où l'équipe de développement parle de son avancement et identifie les obstacles qu'elle rencontre.
     * Permet de suivre l'avancement des tâches en cours
     * Identifier les problèmes / blocants plus rapidement pour y remédier
@@ -47,7 +47,7 @@
     * Obtenir une estimation collective 
     * Encourager les discussions pour s'assurer de la compréhension de l'US
 
-- ### Expliquer les différents roles ✅
+- ### Expliquer les `différents roles` ✅
   * `SCRUM master`: C'est celui qui s'assure que les principes et pratiques de Scrum sont bien respectées.
     * Support de l'équipe :
       * Faciliter les événements Scrum
@@ -73,10 +73,10 @@
       * Collaborer avec le PO en fournissant les informations pour prioriser les US + participer aux revues de sprint pour valider les incréments
       * Soutenir l'équipe Scrum en fournissant des ressources nécessaires + respecter les décisions de l'équipe en suivant les priorités définies
 
-- ### Comment rédiger une User Story complète ? ✅
+- ### Comment rédiger une `User Storie` complète ? ✅
 Pour bien rédiger une US il faut une description concise et claire d'une fonctionnalité ou d'une tâche du point de vue de l'utilisateur final. Il faudra donc inclure plusieurs éléments clés afin de s'assurer qu'elle soit compréhensible et bien définie. Dans la description on y retrouvera le rôle, le besoin et l'objectif. On peut y ajouter des critères d'acceptation par le biai d'une liste de conditions, des critères spécifiques mesurables et vérifiables. L'US doit comporté sont niveau d'importance ou de priorisation
 
-- ### Qu'est-ce qu'un Product Backlog ? ✅
+- ### Qu'est-ce qu'un `Product Backlog` ? ✅
 C'est un outil fondamental dans la méthodologie Agile. Il s'agit d'une liste priorisée et évolutive de tout ce qui est nécessaire pour développer, améliorer ou maintenir un produit. Il va servir de référentiel unique pour les fonctionnalités, corrections, améliorations techniques et autres tâches à réaliser.
 En étant bien maintenu et transparent, il aide l'équipe à livrer un produit qui répond aux besoins des utilisateurs tout en s'adaptant rapidement aux changements.
 * Le product backlog peut inclure: 
@@ -85,7 +85,7 @@ En étant bien maintenu et transparent, il aide l'équipe à livrer un produit q
     * Améliorations continues : idées pour optimiser le produit
     * Tâches techniques : mises à jour d'infrastructure, dettes techniques
 
-- ### Qu'est ce qu'un Sprint ? Quel est l'intérêt ? ✅
+- ### Qu'est ce qu'un `Sprint` ? Quel est l'intérêt ? ✅
 Un sprint c'est une période de temps fixe dans laquelle une équipe travaille pour livrer un incrément du produit. Celui-ci doit être terminé, utilisable et potentiellement livrable. Le Sprint est le cœur de la méthodologie Scrum, structurant le travail en cycles courts pour permettre une adaptation continue et une livraison régulière de valeur.
 * Le sprint aura des caractéristiques principales : 
     * Une durée fixe 
