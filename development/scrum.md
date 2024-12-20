@@ -104,9 +104,9 @@ Les `intérêts du sprint` sont multiples :
     * Grâche aux évènements scrum --> l'équipe va collaboré efficacement
   * Prévisibilité
 
-- A quoi sert le Burndown Chart ? ❌ 
-- Quelles sont les 2 unités de complexité ? ❌ 
-- Qu'est-ce qu'une Definition of done ? A quoi sert elle ? ❌ 
+- ### A quoi sert le Burndown Chart ? ❌ 
+- ### Quelles sont les 2 unités de complexité ? ❌ 
+- ### Qu'est-ce qu'une Definition of done ? A quoi sert elle ? ❌ 
 
 ## 💻 J'utilise
 
