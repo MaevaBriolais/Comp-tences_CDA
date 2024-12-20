@@ -47,10 +47,33 @@
     * Obtenir une estimation collective 
     * Encourager les discussions pour s'assurer de la compréhension de l'US
 
-- Expliquer les différents roles ❌ / ✔️
-  - SCRUM master
-  - Product Owner
-  - Stakeholder
+- Expliquer les différents roles ✅
+  * `SCRUM master`: C'est celui qui s'assure que les principes et pratiques de Scrum sont bien respectées.
+    * Support de l'équipe :
+      * Faciliter les événements Scrum
+      * Aider l'équipe à éliminer les obstacles qui peuvent ralentir leur progression
+    * Coach Agile :
+      * Former l'équipe aux pratique Agile et Scrum
+      * Encourager la culture de l'amélioration continue
+    * Communication :
+      * Servir de lien entre l'équipe et le reste de l'organisation (en lien avec le PO)
+
+  * `Product Owner`: C'est celui qui représente les intérêts des parties prenantes et veille à ce que l'équipe développe les fonctionalités ayant le plus de valeur. Il est le responsable de la valeur du produit.
+    * Gestion du backlog :
+      * Créer, maintenir et prioriser le backlog 
+      * Définir clairement les User Stories et s'assurer de la compréhension de celles-ci
+    * Vision produit :
+      * Communiquer la vision du produit à l'équipe 
+      * Garantir que le produit final répond aux besoins des utilisateurs
+      * Prendre des décisions sur les priorités des User Stories
+
+
+  * `Stakeholder`: C'est toutes les perosnnes ayant un intérêt dans le produit / projet en cours. Il peut y avoir en interne les managers, équipes commerciales, développeur... En externes on peut avoir les clients, utilisateurs... Les stakeholders fournissent des insights essentiels et assurent que le produit final correspond aux besoins réels du marché ou de l’organisation.
+    * Responsabilités : 
+      * Feedback réguliers sur les incréments livrés + Partager les besoins / attentes pour le produit
+      * Collaborer avec le PO en fournissant les informations pour prioriser les US + participer aux revues de sprint pour valider les incréments
+      * Soutenir l'équipe Scrum en fournissant des ressources nécessaires + respecter les décisions de l'équipe en suivant les priorités définies
+
 - Comment rédiger une User Story complète ? ❌ / ✔️
 - Qu'est-ce qu'un Product Backlog ? ❌ / ✔️
 - Qu'est ce qu'un Sprint ? Quel est l'intérêt ? ❌ / ✔️
