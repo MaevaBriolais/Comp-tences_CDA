@@ -47,7 +47,7 @@
     * Obtenir une estimation collective 
     * Encourager les discussions pour s'assurer de la compréhension de l'US
 
-- Expliquer les différents roles ✅
+- ### Expliquer les différents roles ✅
   * `SCRUM master`: C'est celui qui s'assure que les principes et pratiques de Scrum sont bien respectées.
     * Support de l'équipe :
       * Faciliter les événements Scrum
