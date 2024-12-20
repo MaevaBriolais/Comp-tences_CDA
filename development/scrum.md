@@ -80,29 +80,29 @@ Pour bien rédiger une US il faut une description concise et claire d'une foncti
 C'est un outil fondamental dans la méthodologie Agile. Il s'agit d'une liste priorisée et évolutive de tout ce qui est nécessaire pour développer, améliorer ou maintenir un produit. Il va servir de référentiel unique pour les fonctionnalités, corrections, améliorations techniques et autres tâches à réaliser.
 En étant bien maintenu et transparent, il aide l'équipe à livrer un produit qui répond aux besoins des utilisateurs tout en s'adaptant rapidement aux changements.
 Le product backlog peut inclure: 
-  * User Stories : fonctionnalités exprimées du point de vue utilisateur
-  * Bugs : correctifs pour résoudre des anomalies
-  * Améliorations continues : idées pour optimiser le produit
-  * Tâches techniques : mises à jour d'infrastructure, dettes techniques
+    * User Stories : fonctionnalités exprimées du point de vue utilisateur
+    * Bugs : correctifs pour résoudre des anomalies
+    * Améliorations continues : idées pour optimiser le produit
+    * Tâches techniques : mises à jour d'infrastructure, dettes techniques
 
 - ### Qu'est ce qu'un Sprint ? Quel est l'intérêt ? ✅
 Un sprint c'est une période de temps fixe dans laquelle une équipe travaille pour livrer un incrément du produit. Celui-ci doit être terminé, utilisable et potentiellement livrable. Le Sprint est le cœur de la méthodologie Scrum, structurant le travail en cycles courts pour permettre une adaptation continue et une livraison régulière de valeur.
 Le sprint aura des caractéristiques principales : 
-  * Une durée fixe 
-  * Des objectifs clair 
-  * Livraison d'un incrément
-  * Non modifiable (ou exceptionnellement)
-  * Inclure des évènements scrum (sprint planning, daily, sprint review, rétrospective)
+    * Une durée fixe 
+    * Des objectifs clair 
+    * Livraison d'un incrément
+    * Non modifiable (ou exceptionnellement)
+    * Inclure des évènements scrum (sprint planning, daily, sprint review, rétrospective)
 Les `intérêts du sprint` sont multiples :
-  * Une livraison fréquente de valeur
-  * Adaptabilité
-    * Avec des cycles courts ça permet d'ajuster les priorités en fonction des retours des utilisateurs, changements dans le marché ...
-  * Réduction des risques
-    * Avec des problèmes identifiés et corrigés plus tôt dans le processus
-    * Chaque incrément va permettre de valider rapidement si le produit répond aux attentes
-  * Bonne collaboration
-    * Grâche aux évènements scrum --> l'équipe va collaboré efficacement
-  * Prévisibilité
+    * Une livraison fréquente de valeur
+    * Adaptabilité
+      * Avec des cycles courts ça permet d'ajuster les priorités en fonction des retours des utilisateurs, changements dans le marché ...
+    * Réduction des risques
+      * Avec des problèmes identifiés et corrigés plus tôt dans le processus
+      * Chaque incrément va permettre de valider rapidement si le produit répond aux attentes
+    * Bonne collaboration
+      * Grâche aux évènements scrum --> l'équipe va collaboré efficacement
+    * Prévisibilité
 
 - ### A quoi sert le Burndown Chart ? ❌ 
 - ### Quelles sont les 2 unités de complexité ? ❌ 
