@@ -2,13 +2,27 @@
 
 > ❌ A travailler
 
-> ✔️ Auto validation par l'étudiant
+> ✅ Auto validation par l'étudiant
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Différence entre Agile et SCRUM ❌ / ✔️
-- Expliquer les différents rituels et leur intérêt : ❌ / ✔️
-  - Daily Stand Up
+- ### Différence entre `Agile` et `SCRUM` ✅
+  * `Agile` est un ensemble de principesde gestion de projet / développement de produits. Fournit uniquement des principes généraux.
+    * Collaboration avec le client 
+    * Adaptabilité aux changements
+    * Livraisons de solutions opérationnelles
+    * Valorisation des individus et des interactions sur les outils / processus
+  * `SCRUM` applique les principes de l'agilités. Elle permet de structuré et mettre des objectifs.
+    * Avec des rôles bien définis (Scrum Master, Product Owner, équive de dev)
+    * Un processus basé sur des sprints (entre une à quatre semaines généralement)
+    * Mise en place d'évènement régulier :    
+      * Sprint Planning
+      * Daily Stand Up
+      * Retrospective 
+    * Fournit un cadre pour gérer le travail avec des petits morceaux qui permettent d'ajuster rapidement le produits en fonction des besoins évolutifs
+
+- ### Expliquer les différents rituels et leur intérêt : ✅
+  - Daily Stand Up 
   - Sprint planning
   - Retro
   - Grooming
