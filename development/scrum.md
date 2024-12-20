@@ -79,7 +79,7 @@ Pour bien rédiger une US il faut une description concise et claire d'une foncti
 - ### Qu'est-ce qu'un Product Backlog ? ✅
 C'est un outil fondamental dans la méthodologie Agile. Il s'agit d'une liste priorisée et évolutive de tout ce qui est nécessaire pour développer, améliorer ou maintenir un produit. Il va servir de référentiel unique pour les fonctionnalités, corrections, améliorations techniques et autres tâches à réaliser.
 En étant bien maintenu et transparent, il aide l'équipe à livrer un produit qui répond aux besoins des utilisateurs tout en s'adaptant rapidement aux changements.
-Le product backlog peut inclure: 
+* Le product backlog peut inclure: 
     * User Stories : fonctionnalités exprimées du point de vue utilisateur
     * Bugs : correctifs pour résoudre des anomalies
     * Améliorations continues : idées pour optimiser le produit
@@ -87,13 +87,13 @@ Le product backlog peut inclure:
 
 - ### Qu'est ce qu'un Sprint ? Quel est l'intérêt ? ✅
 Un sprint c'est une période de temps fixe dans laquelle une équipe travaille pour livrer un incrément du produit. Celui-ci doit être terminé, utilisable et potentiellement livrable. Le Sprint est le cœur de la méthodologie Scrum, structurant le travail en cycles courts pour permettre une adaptation continue et une livraison régulière de valeur.
-Le sprint aura des caractéristiques principales : 
+* Le sprint aura des caractéristiques principales : 
     * Une durée fixe 
     * Des objectifs clair 
     * Livraison d'un incrément
     * Non modifiable (ou exceptionnellement)
     * Inclure des évènements scrum (sprint planning, daily, sprint review, rétrospective)
-Les `intérêts du sprint` sont multiples :
+* Les `intérêts du sprint` sont multiples :
     * Une livraison fréquente de valeur
     * Adaptabilité
       * Avec des cycles courts ça permet d'ajuster les priorités en fonction des retours des utilisateurs, changements dans le marché ...
